@@ -21,6 +21,9 @@ h1 {
 h2 {
   text-decoration: underline #ff4136;
 }
+#projects {
+  margin-top: 20rem;
+}
 .middle-tags {
   font-size: 2rem;
   border-bottom: solid white 1px;
@@ -85,7 +88,8 @@ span {
 }
 .nav-btn:hover {
   transition: 0.3s;
-  box-shadow: 0px 0px 0px;
+  background-color: #ff5256;
+  box-shadow: 0 5px 15px #ff5256;
 }
 .button-group {
   display: flex;
@@ -138,11 +142,12 @@ i:hover {
   transform: scale(1.2);
 }
 .contact {
+  margin-top: 10rem;
   margin-bottom: 3rem;
 }
 @media (max-width: 900px) {
   .header {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   h2 {
     font-size: 4rem;
@@ -153,5 +158,11 @@ i:hover {
   }
   .nav-btn {
     margin-bottom: 10px;
+  }
+  i {
+    font-size: 5rem;
+  }
+  .about-desc {
+    font-size: 1.5rem;
   }
 }
