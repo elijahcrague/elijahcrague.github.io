@@ -76,6 +76,7 @@ span {
 .nav-btn {
   width: 20rem;
   background-color: #ff4136;
+  outline-style: none;
   font-size: 3rem;
   color: white;
   border: none;
